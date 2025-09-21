@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    background: white;
+}
+
+nav ul {
+    list-style: none; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: palegreen; 
+}
+
+.logo {
+    color: palevioletred;
+    font-size: larger;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* باش الصورة تملا بلا ما تتشوه */
+}
+
+.hero-text {
+    padding-top: 80px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* باش تجي بالوسط مليح */
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.hero-text h1 {
+    color: palegreen;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    text-align: center;
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0;
+}
+
+.nono {
+    text-align: center; /* باش الصور يجيوا في الوسط */
+    margin: 30px 0;
+}
+
+.nono img {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover; /* الصور يجو متناسقين */
+}
+.about-text {
+    text-align: center;
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin: 40px auto;
+    width: 70%;
+    background: #fff0f5; /* خلفية وردية فاتحة */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل خفيف */
+}
+.nono {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.nono .item {
+    background: #fff0f5;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 220px;
+}
+
+.nono img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.nono h4 {
+    margin: 10px 0 5px;
+    color: palevioletred;
+}
+
+.nono p {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: inline-block;
+    font-weight: bold;
+    color: palegreen;
+    font-size: 1.1rem;
+}
+footer {
+    background: palevioletred;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 0.95rem;
+}
+
+footer .socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 15px 0;
+    padding: 0;
+}
+
+footer .socials li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+footer .socials li a:hover {
+    color: palegreen;
+}
+
+footer .copyright {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
